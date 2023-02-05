@@ -1,35 +1,37 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hunterillager",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Hunter Illager",
+  "description": "Add evil HunterIllager! They attack the animals while making a cheeky laugh...",
   "authors": [
-    "Me!"
+    "bagu_chan",
+    "Evo",
+    "akogiri",
+    "mcvinnyq"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/hunterillager",
+    "sources": "https://github.com/baguchan/HunterIllager"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "LGPL-3.0",
+  "icon": "assets/hunterillager/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "baguchan.hunterillager.HunterIllager"
+    ],
+    "client": [
+      "baguchan.hunterillager.HunterIllagerClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": ">=1.19.3",
     "java": ">=17"
   },
   "suggests": {

@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# HunterIllager[![](http://cf.way2muchnoise.eu/versions/hunterillager.svg)](https://www.curseforge.com/minecraft/mc-mods/hunterillager)[![](http://cf.way2muchnoise.eu/short_hunterillager_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/hunterillager/files)
 
-## Setup
+## Overview
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This mod adds a new mob called the Hunter illagers
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Evil little dudes that live in little sheds in the forest
